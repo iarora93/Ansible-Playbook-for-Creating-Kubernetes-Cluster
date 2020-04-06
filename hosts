@@ -1,0 +1,9 @@
+[masters]
+custos-kube-master   ansible_host=IP of Master  ansible_user=root
+
+[workers]
+custos-kube-worker1  ansible_host=IP of Worker   ansible_user=root
+custos-kube-worker2  ansible_host=IP of Worker  ansible_user=root
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
